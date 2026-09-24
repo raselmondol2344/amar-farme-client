@@ -6,8 +6,10 @@ export default function Banner() {
     return ( 
         <section className="w-full px-3 sm:px-5 md:px-6 lg:px-8 py-3"> 
             <div className="relative w-full overflow-hidden rounded-xl"> 
+                
  
                 {/* Banner Image */} 
+
                 <Image 
                     src="/asset/bannar.png" 
                     alt="Amar Farme Banner" 
