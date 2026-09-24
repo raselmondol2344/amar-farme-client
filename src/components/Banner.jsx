@@ -5,7 +5,7 @@ import { Button } from "@heroui/react";
 export default function Banner() { 
 
     return ( 
-        <section className="w-full px-3 sm:px-5 md:px-6 lg:px-8 py-3"> 
+        <section className="w-full px-3 sm:px-5 md:px-6 lg:px-8 "> 
             <div className="relative w-full overflow-hidden rounded-xl"> 
                 
  
