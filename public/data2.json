@@ -1,0 +1,418 @@
+[
+  {
+    "productName": "কাঁচা মরিচ",
+    "price": "100",
+    "imageUrl": "https://images.unsplash.com/photo-1693664132235-1b7050b45da5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z3JlZW4lMjBjaGlsaXxlbnwwfHwwfHx8MA%3D%3D",
+    "stock": "38",
+    "category": "শাকসবজি",
+    "freshness": "ফ্রেশ",
+    "description": "আমাদের প্রতিদিনের রান্নায় ঝালের স্বাদ আনতে এবং খাবারের সাথে সালাদ হিসেবে খাওয়ার জন্য অত্যন্ত উপযোগী, সতেজ ও ঝাঁঝালো কাঁচা মরিচ।"
+  },
+  {
+    "productName": "গোবিন্দভোগ চাল",
+    "price": "200",
+    "imageUrl": "https://images.unsplash.com/photo-1705147289789-6df2593f1b1e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHJpY2V8ZW58MHx8MHx8fDA%3D",
+    "stock": "28",
+    "category": "চাল",
+    "freshness": "প্রিমিয়াম",
+    "description": "পোলাও, পায়েস বা খিচুড়ির স্বাদ ও ঘ্রাণ দ্বিগুণ বাড়াতে সাহায্যকারী চমৎকার সুগন্ধি ও উন্নত মানের প্রিমিয়াম গোবিন্দভোগ চাল।"
+  },
+  {
+    "productName": "খাসির মাংস",
+    "price": "950",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8YZO0vMvB4ndbvQ91PrrCBzJQlLsvMg4DqU3AgTWZZRnsiIuNDiK7_gg&s=10",
+    "stock": "18",
+    "category": "মাংস",
+    "freshness": "প্রিমিয়াম",
+    "description": "বিশেষ কোনো আয়োজন কিংবা উইকেন্ডের ভূরিভোজ জমানোর জন্য অত্যন্ত সুস্বাদু ও পুষ্টিকর প্রিমিয়াম মানের তাজা খাসির মাংস।"
+  },
+  {
+    "productName": "পাতি হাঁস",
+    "price": "550",
+    "imageUrl": "https://images.unsplash.com/photo-1585533530535-2f4236949d08?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZHVja3xlbnwwfHwwfHx8MA%3D%3D",
+    "stock": "25",
+    "category": "মাংস",
+    "freshness": "দেশি",
+    "description": "গ্রাম বাংলার ঐতিহ্যবাহী ও শীতকালীন সুস্বাদু হাঁসের মাংসের ভূরিভোজ জমানোর জন্য দেশি খামারের তাজা পাতি হাঁস।"
+  },
+  {
+    "productName": "শসা",
+    "price": "70",
+    "imageUrl": "https://images.unsplash.com/photo-1568584711271-6c929fb49b60?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y3VjdW1iZXJ8ZW58MHx8MHx8fDA%3D",
+    "stock": "50",
+    "category": "শাকসবজি",
+    "freshness": "ফ্রেশ",
+    "description": "খাবারের সাথে সালাদ বা শরীরের হাইড্রেসন বজায় রাখতে অত্যন্ত কার্যকরী, মাঠ থেকে তোলা সবুজ ও কচি শসা।"
+  },
+  {
+    "productName": "তাজা টমেটো",
+    "price": "80",
+    "imageUrl": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=800&q=80",
+    "stock": "45",
+    "category": "শাকসবজি",
+    "freshness": "ফ্রেশ",
+    "description": "তরকারিতে গ্রেভি তৈরি বা সালাদে ব্যবহারের জন্য ভিটামিন সি সমৃদ্ধ টাটকা ও লাল দেশি টমেটো।"
+  },
+  {
+    "productName": "হলুদ গুঁড়া",
+    "price": "180",
+    "imageUrl": "https://images.unsplash.com/photo-1606951444141-e5533feb55be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8VHVybWVyaWMlMjBwb3dkZXJ8ZW58MHx8MHx8fDA%3D",
+    "stock": "45",
+    "category": "মসলা",
+    "freshness": "অর্গানিক",
+    "description": "রান্নায় সুন্দর প্রাকৃতিক রঙ ও খাঁটি সুবাস আনতে কেমিক্যালমুক্ত ও স্বাস্থ্যসম্মত উপায়ে প্রস্তুতকৃত খাঁটি ও অর্গানিক হলুদ গুঁড়া।"
+  },
+  {
+    "productName": "দেশি গরুর দুধ",
+    "price": "120",
+    "imageUrl": "https://images.unsplash.com/photo-1588710929895-6ee7a0a4d155?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1pbGt8ZW58MHx8MHx8fDA%3D",
+    "stock": "20",
+    "category": "দুধ",
+    "freshness": "দেশি",
+    "description": "প্রতিদিনের পুষ্টির চাহিদা পূরণ করতে এবং ছোট-বড় সবার সুস্বাস্থ্য নিশ্চিত করতে দেশি গাভীর খামার থেকে সংগ্রহ করা খাঁটি দুধ।"
+  },
+  {
+    "productName": "রুই মাছ",
+    "price": "450",
+    "imageUrl": "https://images.unsplash.com/photo-1618120995338-f1344edc054a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFJvaHUlMjBmaXNofGVufDB8fDB8fHww",
+    "stock": "35",
+    "category": "মাছ",
+    "freshness": "দেশি",
+    "description": "বাঙালির পাতে প্রতিদিনের মাছের চাহিদা মেটাতে দেশি পুকুর ও নদী থেকে সংগৃহীত অত্যন্ত সুস্বাদু ও তাজা রুই মাছ।"
+  },
+  {
+    "productName": "ব্রকলি",
+    "price": "120",
+    "imageUrl": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?auto=format&fit=crop&w=800&q=80",
+    "stock": "32",
+    "category": "শাকসবজি",
+    "freshness": "অর্গানিক",
+    "description": "ভিটামিন ও ফাইবার ভরপুর, সালাদ বা স্যুপের জন্য আদর্শ পুষ্টিসমৃদ্ধ তাজা ও সবুজ অর্গানিক ব্রকলি।"
+  },
+  {
+    "productName": "দারুচিনি",
+    "price": "280",
+    "imageUrl": "https://images.unsplash.com/photo-1553499944-e4297a0af1bd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2lubmFtb258ZW58MHx8MHx8fDA%3D",
+    "stock": "30",
+    "category": "মসলা",
+    "freshness": "অর্গানিক",
+    "description": "মাংস, পোলাও বা যেকোনো স্পেশাল খাবারে চমৎকার ঘ্রাণ ও স্বাদ যোগ করার জন্য প্রাকৃতিক ও সুগন্ধি দারুচিনি।"
+  },
+  {
+    "productName": "মিনিকেট চাল",
+    "price": "110",
+    "imageUrl": "https://images.unsplash.com/photo-1771493003867-1aa55f96df5d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fHJpY2V8ZW58MHx8MHx8fDA%3D",
+    "stock": "80",
+    "category": "চাল",
+    "freshness": "ফ্রেশ",
+    "description": "দৈনন্দিন খাওয়ার জন্য ভাত ঝরঝরে ও সুস্বাদু করতে অত্যন্ত জনপ্রিয় পরিষ্কার ও উন্নত মানের চাল।"
+  },
+  {
+    "productName": "ইলিশ মাছ",
+    "price": "1200",
+    "imageUrl": "https://images.unsplash.com/photo-1668532696872-dc5fe74a47f7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGlsc2ElMjBmaXNofGVufDB8fDB8fHww",
+    "stock": "20",
+    "category": "মাছ",
+    "freshness": "ফ্রেশ",
+    "description": "বাঙালির জাতীয় মাছের অনন্য স্বাদ ও সুবাস উপভোগ করার জন্য পদ্মা বা নদী থেকে সংগৃহীত রুপালী তাজা নদীর ইলিশ মাছ।"
+  },
+   {
+    "productName": "রাজ হাঁস",
+    "price": "900",
+    "imageUrl": "https://images.unsplash.com/photo-1608477084172-25d5290b9d4f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHN3YW58ZW58MHx8MHx8fDA%3D",
+    "stock": "15",
+    "category": "মাংস",
+    "freshness": "প্রিমিয়াম",
+    "description": "বড় আকারের পারিবারিক উৎসব কিংবা বিশেষ কোনো আয়োজনের জন্য বিশেষভাবে বাছাইকৃত পুষ্টিসমৃদ্ধ ও প্রিমিয়াম রাজ হাঁস।"
+  },
+  
+  {
+    "productName": "চিকেন ব্রেস্ট",
+    "price": "520",
+    "imageUrl": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=800&q=80",
+    "stock": "35",
+    "category": "মাংস",
+    "freshness": "ফ্রেশ",
+    "description": "যারা ফ্যাটমুক্ত প্রোটিন পছন্দ করেন বা ডায়েট করেন, তাদের রান্নার জন্য পুরোপুরি হাড় ছাড়া তাজা ও পরিষ্কার চিকেন ব্রেস্ট।"
+  },
+  {
+    "productName": "পালং শাক",
+    "price": "40",
+    "imageUrl": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=800&q=80",
+    "stock": "60",
+    "category": "শাকসবজি",
+    "freshness": "অর্গানিক",
+    "description": "শরীরের আয়রন ও মিনারেলের ঘাটতি পূরণে দারুণ উপকারী, শাকসবজির বাজার থেকে সংগৃহীত সবুজ ও সতেজ পালং শাক।"
+  },
+  {
+    "productName": "ফ্রেশ মিল্ক বোতল",
+    "price": "105",
+    "imageUrl": "https://images.unsplash.com/photo-1634141510639-d691d86f47be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWlsa3xlbnwwfHwwfHx8MA%3D%3D",
+    "stock": "35",
+    "category": "দুধ",
+    "freshness": "ফ্রেশ",
+    "description": "পরিষ্কার বোতলে সিলবন্ধ অবস্থায় পাওয়া যাওয়া, পরিবারের সবার প্রতিদিনের পুষ্টির চাহিদা মেটানোর সতেজ ও স্বাস্থ্যকর দুধ।"
+  },
+  {
+    "productName": "জিরা গুঁড়া",
+    "price": "250",
+    "imageUrl": "https://images.unsplash.com/photo-1587493053604-f943541023aa?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fEN1bWluJTIwcG93ZGVyfGVufDB8fDB8fHww",
+    "stock": "32",
+    "category": "মসলা",
+    "freshness": "অর্গানিক",
+    "description": "তরকারি বা যেকোনো রান্নায় জাদুকরী স্বাদ ও সুগন্ধ ছড়ানোর জন্য বাছাইকৃত খাঁটি ও বিশুদ্ধ জিরা থেকে তৈরি গুঁড়া।"
+  },
+  {
+    "productName": "ফুলকপি",
+    "price": "65",
+    "imageUrl": "https://images.unsplash.com/photo-1613743990305-736d763f3d70?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fENhdWxpZmxvd2VyfGVufDB8fDB8fHww",
+    "stock": "28",
+    "category": "শাকসবজি",
+    "freshness": "দেশি",
+    "description": "শীতকালীন সবজির রাজা হিসেবে পরিচিত, তরকারি বা ভাজির জন্য অত্যন্ত সুস্বাদু দেশি খামারের তাজা ফুলকপি।"
+  },
+  {
+    "productName": "অর্গানিক চিকেন",
+    "price": "720",
+    "imageUrl": "https://images.unsplash.com/photo-1583510383754-35fc1d1eb598?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2hpY2tlbnxlbnwwfHwwfHx8MA%3D%3D",
+    "stock": "20",
+    "category": "মাংস",
+    "freshness": "অর্গানিক",
+    "description": "কোনো ধরনের ক্ষতিকর হরমোন বা অ্যান্টিবায়োটিক ছাড়া সম্পূর্ণ প্রাকৃতিক ও অর্গানিক পদ্ধতিতে পালন করা মুরগি।"
+  },
+  {
+    "productName": "কোরাল মাছ",
+    "price": "750",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyawy9J_-BRDw-Wd2ckPFcbVUND_PCluEBrFlXIbxL6w&s=10",
+    "stock": "18",
+    "category": "মাছ",
+    "freshness": "অর্গানিক",
+    "description": "সামুদ্রিক মাছপ্রেমীদের জন্য অত্যন্ত সুস্বাদু এবং প্রাকৃতিকভাবে বিভিন্ন উৎস থেকে সংগ্রহ করা প্রিমিয়াম কোরাল মাছ।"
+  },
+  {
+    "productName": "নাজিরশাইল চাল",
+    "price": "120",
+    "imageUrl": "https://images.unsplash.com/photo-1651793371427-ad065df0d208?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODN8fHJpY2V8ZW58MHx8MHx8fDA%3D",
+    "stock": "60",
+    "category": "চাল",
+    "freshness": "দেশি",
+    "description": "ভাত রান্নার পর লম্বা ও সুন্দর ঝরঝরে হওয়ার জন্য ঐতিহ্যগতভাবে জনপ্রিয় দেশি নাজিরশাইল চাল।"
+  },
+  {
+    "productName": "গাজর",
+    "price": "90",
+    "imageUrl": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=800&q=80",
+    "stock": "40",
+    "category": "শাকসবজি",
+    "freshness": "অর্গানিক",
+    "description": "ভিটামিন এ সমৃদ্ধ, সালাদ, হালুয়া কিংবা জুসের জন্য অত্যন্ত চমৎকার মিষ্টি ও তাজা অর্গানিক গাজর।"
+  },
+  {
+    "productName": "খাঁটি গরুর দুধ",
+    "price": "100",
+    "imageUrl": "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWlsa3xlbnwwfHwwfHx8MA%3D%3D",
+    "stock": "25",
+    "category": "দুধ",
+    "freshness": "ফ্রেশ",
+    "description": "ভেজালমুক্ত ও খাঁটি পুষ্টি পেতে সরাসরি বিশ্বস্ত খামার থেকে সংগ্রহ করা সতেজ গরুর দুধ।"
+  },
+  {
+    "productName": "দেশি মুরগি",
+    "price": "650",
+    "imageUrl": "https://images.unsplash.com/photo-1588597989061-b60ad0eefdbf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hpY2tlbnxlbnwwfHwwfHx8MA%3D%3D",
+    "stock": "30",
+    "category": "মাংস",
+    "freshness": "দেশি",
+    "description": "ঐতিহ্যবাহী স্বাদের ঝোল বা রোস্ট তৈরির জন্য দেশি খামারে মুক্তভাবে বেড়ে ওঠা তাজা মুরগি।"
+  },
+  {
+    "productName": "বাঁধাকপি",
+    "price": "55",
+    "imageUrl": "https://images.unsplash.com/photo-1611105637889-3afd7295bdbf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2FiYmFnZXxlbnwwfHwwfHx8MA%3D%3D",
+    "stock": "35",
+    "category": "শাকসবজি",
+    "freshness": "ফ্রেশ",
+    "description": "ভাজি, সবজি কিংবা সালাদে ব্যবহারের জন্য মাঠ থেকে সরাসরি সংগ্রহ করা কচি ও সতেজ বাঁধাকপি।"
+  },
+  {
+    "productName": "পাঙ্গাস মাছ",
+    "price": "280",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgiVyZQPrtRIv92idr6DYbMn_dZx9tWGglRVkcD3sXnw&s=10",
+    "stock": "50",
+    "category": "মাছ",
+    "freshness": "দেশি",
+    "description": "কম কাঁটাযুক্ত এবং পরিবারের সবার কাছে সহজে গ্রহণযোগ্য সুস্বাদু ও তাজা পাঙ্গাস মাছ।"
+  },
+  {
+    "productName": "গরম মসলা",
+    "price": "300",
+    "imageUrl": "https://images.unsplash.com/photo-1591465001609-ded6360ecaab?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8R2FyYW0lMjBtYXNhbGF8ZW58MHx8MHx8fDA%3D",
+    "stock": "25",
+    "category": "মসলা",
+    "freshness": "প্রিমিয়াম",
+    "description": "রান্নায় চমৎকার শাহি ঘ্রাণ ও অতুলনীয় স্বাদ আনতে বিভিন্ন বাছাইকৃত উপাদানে তৈরি প্রিমিয়াম মানের গরম মসলা।"
+  },
+  {
+    "productName": "বাসমতি চাল",
+    "price": "180",
+    "imageUrl": "https://images.unsplash.com/photo-1612708074992-c7936e82c99b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHxyaWNlfGVufDB8fDB8fHww",
+    "stock": "70",
+    "category": "চাল",
+    "freshness": "প্রিমিয়াম",
+    "description": "বিরিয়ানি বা পোলাওয়ের জন্য পারফেক্ট, অত্যন্ত লম্বা দানা বিশিষ্ট সুগন্ধি ও প্রিমিয়াম বাসমতি চাল।"
+  },
+  {
+    "productName": "বেগুন",
+    "price": "75",
+    "imageUrl": "https://images.unsplash.com/photo-1683543122945-513029986574?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RWdncGxhbnR8ZW58MHx8MHx8fDA%3D",
+    "stock": "42",
+    "category": "শাকসবজি",
+    "freshness": "দেশি",
+    "description": "বেগুন ভাজা কিংবা সুস্বাদু ভর্তা তৈরির জন্য বিশেষভাবে উপযুক্ত দেশি জাতের তাজা বেগুন।"
+  },
+  {
+    "productName": "অর্গানিক দুধ",
+    "price": "130",
+    "imageUrl": "https://images.unsplash.com/photo-1611211301828-be4b317d0707?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fG1pbGt8ZW58MHx8MHx8fDA%3D",
+    "stock": "18",
+    "category": "দুধ",
+    "freshness": "অর্গানিক",
+    "description": "প্রাকৃতিক ও স্বাস্থ্যকর উপায়ে লালন-পালন করা গরুর খামার থেকে উৎপাদিত পুষ্টিকর অর্গানিক দুধ।"
+  },
+  {
+    "productName": "ফ্রেশ মুরগির মাংস",
+    "price": "480",
+    "imageUrl": "https://images.unsplash.com/photo-1587593810167-a84920ea0781?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2hpY2tlbnxlbnwwfHwwfHx8MA%3D%3D",
+    "stock": "40",
+    "category": "মাংস",
+    "freshness": "ফ্রেশ",
+    "description": "প্রতিদিনের আমিষের চাহিদা মেটাতে এবং নানা পদের রান্না করার উপযোগী করে কাটা তাজা মুরগির মাংস।"
+  },
+  {
+    "productName": "তেলাপিয়া মাছ",
+    "price": "320",
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1757293933862-5b29389c1fce?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VGlsYXBpYSUyMGZpc2h8ZW58MHx8MHx8fDA%3D",
+    "stock": "45",
+    "category": "মাছ",
+    "freshness": "ফ্রেশ",
+    "description": "সহজে রান্না করার মতো এবং সুস্বাদু খাবারের জন্য নির্ভরযোগ্য খামার থেকে সংগ্রহ করা তাজা তেলাপিয়া মাছ।"
+  },
+  {
+    "productName": "চিনা হাঁস",
+    "price": "750",
+    "imageUrl": "https://api.freshtoday.com.bd/media/64f71177d5a06.jpeg",
+    "stock" : "20",
+    "category": "মাংস",
+    "freshness": "ফ্রেশ",
+    "description": "মাংসের পরিমাণ বেশি ও অত্যন্ত সুস্বাদু হওয়ায় মাংসপ্রেমীদের কাছে দারুণ জনপ্রিয় খামার থেকে সংগ্রহ করা সতেজ চিনা হাঁস।"
+  },
+  
+  {
+    "productName": "ধনে গুঁড়া",
+    "price": "170",
+    "imageUrl": "https://media.istockphoto.com/id/492510708/photo/coriander-seeds-fresh-coriander-and-powdered-coriander.webp?a=1&b=1&s=612x612&w=0&k=20&c=h0X18Pg7Jiu3ejHYX7e4BUVIQ1jeVtGcPiRiZ_Rt54g=",
+    "stock": "40",
+    "category": "মসলা",
+    "freshness": "দেশি",
+    "description": "খাবারে চমৎকার ঘ্রাণ ও পরিমিত স্বাদ আনতে খাঁটি দেশি ধনে বীজ থেকে যত্নের সাথে প্রস্তুত করা গুঁড়া।"
+  },
+  {
+    "productName": "সিদ্ধ চাল",
+    "price": "95",
+    "imageUrl": "https://images.unsplash.com/photo-1723475158229-894679ca024e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHJpY2V8ZW58MHx8MHx8fDA%3D",
+    "stock": "90",
+    "category": "চাল",
+    "freshness": "দেশ%0Aি",
+    "description": "প্রতিদিনের ভারী খাবারের জন্য আদর্শ এবং দীর্ঘ সময় পেট ভরা রাখতে সাহায্যকারী দেশি পদ্ধতিতে প্রস্তুত সিদ্ধ চাল।"
+  },
+  {
+    "productName": "ফার্ম ফ্রেশ মিল্ক",
+    "price": "110",
+    "imageUrl": "https://images.unsplash.com/photo-1637382752225-d7f97e1ddd03?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWlsa3xlbnwwfHwwfHx8MA%3D%3D",
+    "stock": "30",
+    "category": "দুধ",
+    "freshness": "প্রিমিয়াম",
+    "description": "উন্নত প্রক্রিয়াজাতকরণের মাধ্যমে পুষ্টিগুণ বজায় রেখে বোতলজাত করা প্রিমিয়াম মানের তাজা দুধ।"
+  },
+  {
+    "productName": "আলু",
+    "price": "50",
+    "imageUrl": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=800&q=80",
+    "stock": "80",
+    "category": "শাকসবজি",
+    "freshness": "দেশি",
+    "description": "সব তরকারির মূল উপাদান হিসেবে রান্নার স্বাদ বাড়িয়ে দিতে নতুন ও মানসম্মত দেশি আলু।"
+  },
+  {
+    "productName": "গরুর মাংস",
+    "price": "780",
+    "imageUrl": "https://images.unsplash.com/photo-1602470521006-59ab77068b0d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJlZWZ8ZW58MHx8MHx8fDA%3D",
+    "stock": "25",
+    "category": "মাংস",
+    "freshness": "ফ্রেশ",
+    "description": "পরিবারের সবার পছন্দের মাংসের রান্নাকে আরও সুস্বাদু ও আকর্ষণীয় করতে তাজা ও মানসম্মত গরুর মাংস।"
+  },
+  {
+    "productName": "কাতলা মাছ",
+    "price": "480",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSloe8zdp-dTIZqpAdnVUEGYEWbg6k0XHUiaiiLAsEPfA&s=10",
+    "stock": "28",
+    "category": "মাছ",
+    "freshness": "ফ্রেশ",
+    "description": "মাছের তেল ও নরম গাদার মাংসের জন্য জনপ্রিয়, সুস্বাদু ও তাজা কাতলা মাছ।"
+  },
+  {
+    "productName": "মরিচ গুঁড়া",
+    "price": "220",
+    "imageUrl": "https://images.unsplash.com/photo-1607672632458-9eb56696346b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2hpbGklMjBwb3dkZXJ8ZW58MHx8MHx8fDA%3D",
+    "stock": "38",
+    "category": "মসলা",
+    "freshness": "ফ্রেশ",
+    "description": "খাবারে পারফেক্ট ঝাল ভাব ও সুন্দর লাল রঙ আনার জন্য বেছে নেওয়া ঝাল ও সুগন্ধি মরিচ গুঁড়া।"
+  },
+  {
+    "productName": "দেশি খাসির মাংস",
+    "price": "980",
+    "imageUrl": "https://images.unsplash.com/photo-1632154023554-c2975e9be348?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fExvY2FsJTIwZ29hdCUyMG1lYXR8ZW58MHx8MHx8fDA%3D",
+    "stock": "15",
+    "category": "মাংস",
+    "freshness": "দেশি",
+    "description": "বিশেষ কোনো উৎসব বা মেহমানদারিতে সেরা তৃপ্তি পেতে দেশি খাসির নরম ও জুসি মাংস।"
+  },
+  {
+    "productName": "কালোজিরা চাল",
+    "price": "160",
+    "imageUrl": "https://images.unsplash.com/photo-1711060266983-92bd378c850c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fHJpY2V8ZW58MHx8MHx8fDA%3D",
+    "stock": "35",
+    "category": "চাল",
+    "freshness": "অর্গানিক",
+    "description": "পোলাও ও জর্দার আসল স্বাদ পেতে প্রাকৃতিকভাবে উৎপাদিত অত্যন্ত সুবাস ছড়ানো কালোজিরা চাল।"
+  },
+  {
+    "productName": "চিংড়ি মাছ",
+    "price": "850",
+    "imageUrl": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=800&q=80",
+    "stock": "22",
+    "category": "মাছ",
+    "freshness": "প্রিমিয়াম",
+    "description": "মাল্লাইকারি বা রোস্ট রান্নার জন্য রসালো ও বড় সাইজের চমৎকার প্রিমিয়াম চিংড়ি।"
+  },
+  {
+    "productName": "প্রিমিয়াম বিফ স্টেক",
+    "price": "1200",
+    "imageUrl": "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=800&q=80",
+    "stock": "out of stock",
+    "category": "মাংস",
+    "freshness": "প্রিমিয়াম",
+    "description": "রেস্তোরাঁ স্টাইলের মুখরোচক ও সুস্বাদু খাবার তৈরি করার জন্য বিশেষভাবে কাটা প্রিমিয়াম কোয়ালিটির বিফ স্টেক।"
+  },
+  {
+    "productName": "স্যামন",
+    "price": "1450",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuBuIQQTwi21kkYl7CaKcctptOEmEC8EsV_c6szPfWYZhLw2gXBLFDqAI&s=10",
+    "stock": "14",
+    "category": "মাছ",
+    "freshness": "প্রিমিয়াম",
+    "description": "স্বাস্থ্য সচেতনদের অন্যতম প্রিয় ও ওমেগা-৩ ফ্যাটি এসিডে ভরপুর প্রিমিয়াম মানের তাজা স্যামন মাছ।"
+  }
+]

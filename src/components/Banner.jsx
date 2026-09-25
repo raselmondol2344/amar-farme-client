@@ -1,6 +1,7 @@
 import Image from "next/image"; 
 import React from "react"; 
 import { Button } from "@heroui/react"; 
+import Link from "next/link";
  
 export default function Banner() { 
 
@@ -33,11 +34,13 @@ export default function Banner() {
                         </p> 
  
                         <div className="mt-3 sm:mt-3 md:mt-4"> 
+                           <Link href={'/products'}>
                             <Button 
                                 className="bg-green-600 hover:bg-green-700 text-white font-semibold text-[10px] sm:text-xs md:text-xs lg:text-sm px-4 sm:px-3 md:px-5 lg:px-7 h-7 sm:h-7 md:h-8 lg:h-10 rounded-full transition-all duration-300" 
                             > 
                                 Explore Products 
                             </Button> 
+                           </Link>
                         </div> 
                     </div> 
                 </div> 

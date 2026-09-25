@@ -1,4 +1,5 @@
 "use client";
+import { toast } from "react-toastify";
 
 import {
   Button,
@@ -13,11 +14,34 @@ import {
 
 export function AddProductForm() {
 
-    const onSubmit=(e)=>{
+    const onSubmit= async(e)=>{
         e.preventDefault()
         const formData = new FormData(e.currentTarget)
         const product = Object.fromEntries(formData.entries())
         console.log(product)
+
+        const res = await fetch ("http://localhost:8000/product",{
+            method:"POST",
+            headers:{
+                "content-type":"application/json"
+            },
+            body:JSON.stringify(product)
+        })
+        const data = await res.json()
+
+
+     if (res.ok) {
+      toast.success("পন্য সফলভাবে যোগ হয়েছে!");
+      
+    } else {
+      toast.error("পন্য যোগ করা যায়নি!");
+    }
+
+
+
+
+
+
     }
   return (
     <div className="min-h-screen w-full bg-green-50/50 px-3 py-4 sm:px-5 md:px-6">

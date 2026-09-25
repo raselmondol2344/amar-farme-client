@@ -1,0 +1,398 @@
+[
+  {
+    "productName": "তাজা টমেটো",
+    "price": "80",
+    "imageUrl": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=800&q=80",
+    "stock": "45",
+    "category": "শাকসবজি",
+    "freshness": "ফ্রেশ",
+    "description": "টাটকা ও লাল দেশি টমেটো"
+  },
+  {
+    "productName": "ব্রকলি",
+    "price": "120",
+    "imageUrl": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?auto=format&fit=crop&w=800&q=80",
+    "stock": "32",
+    "category": "শাকসবজি",
+    "freshness": "অর্গানিক",
+    "description": "তাজা ও পুষ্টিকর ব্রকলি"
+  },
+  {
+    "productName": "শসা",
+    "price": "70",
+    "imageUrl": "https://images.unsplash.com/photo-1568584711271-6c929fb49b60?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y3VjdW1iZXJ8ZW58MHx8MHx8fDA%3D",
+    "stock": "50",
+    "category": "শাকসবজি",
+    "freshness": "ফ্রেশ",
+    "description": "সবুজ ও কচি শসা"
+  },
+  {
+    "productName": "গাজর",
+    "price": "90",
+    "imageUrl": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=800&q=80",
+    "stock": "40",
+    "category": "শাকসবজি",
+    "freshness": "অর্গানিক",
+    "description": "মিষ্টি ও তাজা গাজর"
+  },
+  {
+    "productName": "ফুলকপি",
+    "price": "65",
+    "imageUrl": "https://images.unsplash.com/photo-1613743990305-736d763f3d70?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fENhdWxpZmxvd2VyfGVufDB8fDB8fHww",
+    "stock": "28",
+    "category": "শাকসবজি",
+    "freshness": "দেশি",
+    "description": "দেশি খামারের তাজা ফুলকপি"
+  },
+  {
+    "productName": "বাঁধাকপি",
+    "price": "55",
+    "imageUrl": "https://images.unsplash.com/photo-1611105637889-3afd7295bdbf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2FiYmFnZXxlbnwwfHwwfHx8MA%3D%3D",
+    "stock": "35",
+    "category": "শাকসবজি",
+    "freshness": "ফ্রেশ",
+    "description": "কচি ও সতেজ বাঁধাকপি"
+  },
+  {
+    "productName": "পালং শাক",
+    "price": "40",
+    "imageUrl": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=800&q=80",
+    "stock": "60",
+    "category": "শাকসবজি",
+    "freshness": "অর্গানিক",
+    "description": "সবুজ ও সতেজ পালং শাক"
+  },
+  {
+    "productName": "বেগুন",
+    "price": "75",
+    "imageUrl": "https://images.unsplash.com/photo-1683543122945-513029986574?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RWdncGxhbnR8ZW58MHx8MHx8fDA%3D",
+    "stock": "42",
+    "category": "শাকসবজি",
+    "freshness": "দেশি",
+    "description": "দেশি জাতের তাজা বেগুন"
+  },
+  {
+    "productName": "আলু",
+    "price": "50",
+    "imageUrl": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=800&q=80",
+    "stock": "80",
+    "category": "শাকসবজি",
+    "freshness": "দেশি",
+    "description": "নতুন দেশি আলু"
+  },
+  {
+    "productName": "কাঁচা মরিচ",
+    "price": "100",
+    "imageUrl": "https://images.unsplash.com/photo-1693664132235-1b7050b45da5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z3JlZW4lMjBjaGlsaXxlbnwwfHwwfHx8MA%3D%3D",
+    "stock": "38",
+    "category": "শাকসবজি",
+    "freshness": "ফ্রেশ",
+    "description": "ঝাল ও সতেজ কাঁচা মরিচ"
+  },
+
+  {
+    "productName": "খাঁটি গরুর দুধ",
+    "price": "100",
+    "imageUrl": "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWlsa3xlbnwwfHwwfHx8MA%3D%3D",
+    "stock": "25",
+    "category": "দুধ",
+    "freshness": "ফ্রেশ",
+    "description": "খামার থেকে সংগ্রহ করা খাঁটি দুধ"
+  },
+  {
+    "productName": "ফার্ম ফ্রেশ মিল্ক",
+    "price": "110",
+    "imageUrl": "https://images.unsplash.com/photo-1637382752225-d7f97e1ddd03?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWlsa3xlbnwwfHwwfHx8MA%3D%3D",
+    "stock": "30",
+    "category": "দুধ",
+    "freshness": "প্রিমিয়াম",
+    "description": "প্রিমিয়াম মানের তাজা দুধ"
+  },
+  {
+    "productName": "দেশি গরুর দুধ",
+    "price": "120",
+    "imageUrl": "https://images.unsplash.com/photo-1588710929895-6ee7a0a4d155?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1pbGt8ZW58MHx8MHx8fDA%3D",
+    "stock": "20",
+    "category": "দুধ",
+    "freshness": "দেশি",
+    "description": "দেশি গাভীর খাঁটি দুধ"
+  },
+  {
+    "productName": "অর্গানিক দুধ",
+    "price": "130",
+    "imageUrl": "https://images.unsplash.com/photo-1611211301828-be4b317d0707?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fG1pbGt8ZW58MHx8MHx8fDA%3D",
+    "stock": "18",
+    "category": "দুধ",
+    "freshness": "অর্গানিক",
+    "description": "অর্গানিক পদ্ধতিতে উৎপাদিত দুধ"
+  },
+  {
+    "productName": "ফ্রেশ মিল্ক বোতল",
+    "price": "105",
+    "imageUrl": "https://images.unsplash.com/photo-1634141510639-d691d86f47be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWlsa3xlbnwwfHwwfHx8MA%3D%3D",
+    "stock": "35",
+    "category": "দুধ",
+    "freshness": "ফ্রেশ",
+    "description": "সতেজ ও স্বাস্থ্যকর দুধ"
+  },
+  
+
+  {
+    "productName": "গরুর মাংস",
+    "price": "780",
+    "imageUrl": "https://images.unsplash.com/photo-1602470521006-59ab77068b0d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJlZWZ8ZW58MHx8MHx8fDA%3D",
+    "stock": "25",
+    "category": "মাংস",
+    "freshness": "ফ্রেশ",
+    "description": "তাজা ও মানসম্মত গরুর মাংস"
+  },
+  {
+    "productName": "খাসির মাংস",
+    "price": "950",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8YZO0vMvB4ndbvQ91PrrCBzJQlLsvMg4DqU3AgTWZZRnsiIuNDiK7_gg&s=10",
+    "stock": "18",
+    "category": "মাংস",
+    "freshness": "প্রিমিয়াম",
+    "description": "প্রিমিয়াম মানের খাসির মাংস"
+  },
+  {
+    "productName": "দেশি মুরগি",
+    "price": "650",
+    "imageUrl": "https://images.unsplash.com/photo-1588597989061-b60ad0eefdbf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hpY2tlbnxlbnwwfHwwfHx8MA%3D%3D",
+    "stock": "30",
+    "category": "মাংস",
+    "freshness": "দেশি",
+    "description": "দেশি খামারের তাজা মুরগি"
+  },
+  {
+    "productName": "চিকেন ব্রেস্ট",
+    "price": "520",
+    "imageUrl": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=800&q=80",
+    "stock": "35",
+    "category": "মাংস",
+    "freshness": "ফ্রেশ",
+    "description": "তাজা ও পরিষ্কার চিকেন ব্রেস্ট"
+  },
+  {
+    "productName": "প্রিমিয়াম বিফ স্টেক",
+    "price": "1200",
+    "imageUrl": "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=800&q=80",
+    "stock": "out of stock",
+    "category": "মাংস",
+    "freshness": "প্রিমিয়াম",
+    "description": "প্রিমিয়াম কোয়ালিটির বিফ স্টেক"
+  },
+  {
+    "productName": "ফ্রেশ মুরগির মাংস",
+    "price": "480",
+    "imageUrl": "https://images.unsplash.com/photo-1587593810167-a84920ea0781?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2hpY2tlbnxlbnwwfHwwfHx8MA%3D%3D",
+    "stock": "40",
+    "category": "মাংস",
+    "freshness": "ফ্রেশ",
+    "description": "প্রতিদিনের জন্য তাজা মুরগির মাংস"
+  },
+  {
+    "productName": "অর্গানিক চিকেন",
+    "price": "720",
+    "imageUrl": "https://images.unsplash.com/photo-1583510383754-35fc1d1eb598?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2hpY2tlbnxlbnwwfHwwfHx8MA%3D%3D",
+    "stock": "20",
+    "category": "মাংস",
+    "freshness": "অর্গানিক",
+    "description": "অর্গানিক পদ্ধতিতে পালন করা মুরগি"
+  },
+  {
+    "productName": "দেশি খাসির মাংস",
+    "price": "980",
+    "imageUrl": "https://images.unsplash.com/photo-1632154023554-c2975e9be348?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fExvY2FsJTIwZ29hdCUyMG1lYXR8ZW58MHx8MHx8fDA%3D",
+    "stock": "15",
+    "category": "মাংস",
+    "freshness": "দেশি",
+    "description": "দেশি খাসির নরম মাংস"
+  },
+
+  {
+    "productName": "ইলিশ মাছ",
+    "price": "1200",
+    "imageUrl": "https://images.unsplash.com/photo-1668532696872-dc5fe74a47f7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGlsc2ElMjBmaXNofGVufDB8fDB8fHww",
+    "stock": "20",
+    "category": "মাছ",
+    "freshness": "ফ্রেশ",
+    "description": "তাজা নদীর ইলিশ মাছ"
+  },
+  {
+    "productName": "রুই মাছ",
+    "price": "450",
+    "imageUrl": "https://images.unsplash.com/photo-1618120995338-f1344edc054a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFJvaHUlMjBmaXNofGVufDB8fDB8fHww",
+    "stock": "35",
+    "category": "মাছ",
+    "freshness": "দেশি",
+    "description": "দেশি পুকুরের তাজা রুই মাছ"
+  },
+  {
+    "productName": "কাতলা মাছ",
+    "price": "480",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSloe8zdp-dTIZqpAdnVUEGYEWbg6k0XHUiaiiLAsEPfA&s=10",
+    "stock": "28",
+    "category": "মাছ",
+    "freshness": "ফ্রেশ",
+    "description": "তাজা ও সুস্বাদু কাতলা মাছ"
+  },
+  {
+    "productName": "চিংড়ি মাছ",
+    "price": "850",
+    "imageUrl": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=800&q=80",
+    "stock": "22",
+    "category": "মাছ",
+    "freshness": "প্রিমিয়াম",
+    "description": "বড় সাইজের প্রিমিয়াম চিংড়ি"
+  },
+  {
+    "productName": "স্যামন",
+    "price": "1450",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuBuIQQTwi21kkYl7CaKcctptOEmEC8EsV_c6szPfWYZhLw2gXBLFDqAI&s=10",
+    "stock": "14",
+    "category": "মাছ",
+    "freshness": "প্রিমিয়াম",
+    "description": "প্রিমিয়াম মানের তাজা স্যামন"
+  },
+  {
+    "productName": "তেলাপিয়া মাছ",
+    "price": "320",
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1757293933862-5b29389c1fce?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VGlsYXBpYSUyMGZpc2h8ZW58MHx8MHx8fDA%3D",
+    "stock": "45",
+    "category": "মাছ",
+    "freshness": "ফ্রেশ",
+    "description": "তাজা খামারের তেলাপিয়া মাছ"
+  },
+  {
+    "productName": "পাঙ্গাস মাছ",
+    "price": "280",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgiVyZQPrtRIv92idr6DYbMn_dZx9tWGglRVkcD3sXnw&s=10",
+    "stock": "50",
+    "category": "মাছ",
+    "freshness": "দেশি",
+    "description": "সুস্বাদু ও তাজা পাঙ্গাস মাছ"
+  },
+  {
+    "productName": "কোরাল মাছ",
+    "price": "750",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyawy9J_-BRDw-Wd2ckPFcbVUND_PCluEBrFlXIbxL6w&s=10",
+    "stock": "18",
+    "category": "মাছ",
+    "freshness": "অর্গানিক",
+    "description": "প্রাকৃতিকভাবে সংগ্রহ করা কোরাল মাছ"
+  },
+
+  {
+    "productName": "হলুদ গুঁড়া",
+    "price": "180",
+    "imageUrl": "https://images.unsplash.com/photo-1606951444141-e5533feb55be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8VHVybWVyaWMlMjBwb3dkZXJ8ZW58MHx8MHx8fDA%3D",
+    "stock": "45",
+    "category": "মসলা",
+    "freshness": "অর্গানিক",
+    "description": "খাঁটি ও অর্গানিক হলুদ গুঁড়া"
+  },
+  {
+    "productName": "মরিচ গুঁড়া",
+    "price": "220",
+    "imageUrl": "https://images.unsplash.com/photo-1607672632458-9eb56696346b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2hpbGklMjBwb3dkZXJ8ZW58MHx8MHx8fDA%3D",
+    "stock": "38",
+    "category": "মসলা",
+    "freshness": "ফ্রেশ",
+    "description": "ঝাল ও সুগন্ধি মরিচ গুঁড়া"
+  },
+  {
+    "productName": "জিরা গুঁড়া",
+    "price": "250",
+    "imageUrl": "https://images.unsplash.com/photo-1587493053604-f943541023aa?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fEN1bWluJTIwcG93ZGVyfGVufDB8fDB8fHww",
+    "stock": "32",
+    "category": "মসলা",
+    "freshness": "অর্গানিক",
+    "description": "বিশুদ্ধ জিরা থেকে তৈরি গুঁড়া"
+  },
+  {
+    "productName": "ধনে গুঁড়া",
+    "price": "170",
+    "imageUrl": "https://media.istockphoto.com/id/492510708/photo/coriander-seeds-fresh-coriander-and-powdered-coriander.webp?a=1&b=1&s=612x612&w=0&k=20&c=h0X18Pg7Jiu3ejHYX7e4BUVIQ1jeVtGcPiRiZ_Rt54g=",
+    "stock": "40",
+    "category": "মসলা",
+    "freshness": "দেশি",
+    "description": "দেশি ধনে থেকে তৈরি গুঁড়া"
+  },
+  {
+    "productName": "গরম মসলা",
+    "price": "300",
+    "imageUrl": "https://images.unsplash.com/photo-1591465001609-ded6360ecaab?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8R2FyYW0lMjBtYXNhbGF8ZW58MHx8MHx8fDA%3D",
+    "stock": "25",
+    "category": "মসলা",
+    "freshness": "প্রিমিয়াম",
+    "description": "প্রিমিয়াম মানের গরম মসলা"
+  },
+  {
+    "productName": "দারুচিনি",
+    "price": "280",
+    "imageUrl": "https://images.unsplash.com/photo-1553499944-e4297a0af1bd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2lubmFtb258ZW58MHx8MHx8fDA%3D",
+    "stock": "30",
+    "category": "মসলা",
+    "freshness": "অর্গানিক",
+    "description": "সুগন্ধি ও প্রাকৃতিক দারুচিনি"
+  },
+
+  {
+    "productName": "বাসমতি চাল",
+    "price": "180",
+    "imageUrl": "https://images.unsplash.com/photo-1612708074992-c7936e82c99b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHxyaWNlfGVufDB8fDB8fHww",
+    "stock": "70",
+    "category": "চাল",
+    "freshness": "প্রিমিয়াম",
+    "description": "সুগন্ধি ও প্রিমিয়াম বাসমতি চাল"
+  },
+  {
+    "productName": "নাজিরশাইল চাল",
+    "price": "120",
+    "imageUrl": "https://images.unsplash.com/photo-1651793371427-ad065df0d208?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODN8fHJpY2V8ZW58MHx8MHx8fDA%3D",
+    "stock": "60",
+    "category": "চাল",
+    "freshness": "দেশি",
+    "description": "দেশি নাজিরশাইল চাল"
+  },
+  {
+    "productName": "মিনিকেট চাল",
+    "price": "110",
+    "imageUrl": "https://images.unsplash.com/photo-1771493003867-1aa55f96df5d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fHJpY2V8ZW58MHx8MHx8fDA%3D",
+    "stock": "80",
+    "category": "চাল",
+    "freshness": "ফ্রেশ",
+    "description": "পরিষ্কার ও উন্নত মানের চাল"
+  },
+  {
+    "productName": "কালোজিরা চাল",
+    "price": "160",
+    "imageUrl": "https://images.unsplash.com/photo-1711060266983-92bd378c850c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fHJpY2V8ZW58MHx8MHx8fDA%3D",
+    "stock": "35",
+    "category": "চাল",
+    "freshness": "অর্গানিক",
+    "description": "প্রাকৃতিকভাবে উৎপাদিত কালোজিরা চাল"
+  },
+  {
+    "productName": "গোবিন্দভোগ চাল",
+    "price": "200",
+    "imageUrl": "https://images.unsplash.com/photo-1705147289789-6df2593f1b1e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHJpY2V8ZW58MHx8MHx8fDA%3D",
+    "stock": "28",
+    "category": "চাল",
+    "freshness": "প্রিমিয়াম",
+    "description": "সুগন্ধি ও উন্নত মানের গোবিন্দভোগ চাল"
+  },
+  {
+    "productName": "সিদ্ধ চাল",
+    "price": "95",
+    "imageUrl": "https://images.unsplash.com/photo-1723475158229-894679ca024e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHJpY2V8ZW58MHx8MHx8fDA%3D",
+    "stock": "90",
+    "category": "চাল",
+    "freshness": "দেশি",
+    "description": "দেশি পদ্ধতিতে প্রস্তুত সিদ্ধ চাল"
+  }
+]
+
+
+
