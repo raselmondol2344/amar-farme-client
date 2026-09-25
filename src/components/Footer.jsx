@@ -98,6 +98,7 @@ export default function Footer() {
                             >
                                 Subscribe
                             </Button>
+
                         </div>
                     </div>
 
