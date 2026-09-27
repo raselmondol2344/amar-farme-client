@@ -50,11 +50,13 @@ export default function WhyWe() {
               <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-full bg-green-600 text-xl text-white shadow-md transition-transform duration-300 group-hover:scale-110">
                 {reason.icon}
               </div>
+              
 
               {/* Title */}
               <h3 className="mb-3 text-lg font-bold text-gray-800 sm:text-xl">
                 {reason.title}
               </h3>
+
 
               {/* Description */}
               <p className="text-sm leading-6 text-gray-600 sm:text-base">
