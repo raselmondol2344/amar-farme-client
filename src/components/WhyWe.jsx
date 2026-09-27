@@ -60,7 +60,7 @@ export default function WhyWe() {
               <p className="text-sm leading-6 text-gray-600 sm:text-base">
                 {reason.description}
               </p>
-            </div>
+            </div> // hudai
           ))}
         </div>
       </div>

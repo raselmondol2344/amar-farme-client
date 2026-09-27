@@ -128,6 +128,10 @@ export default function Review() {
 
         </div>
 
+        // 2nd comment
+
+        // 3nd comment 
+
       </div>
     </section>
   );
