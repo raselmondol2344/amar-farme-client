@@ -1,16 +1,7 @@
 "use client";
 import { toast } from "react-toastify";
 
-import {
-  Button,
-  Description,
-  FieldError,
-  Form,
-  Input,
-  Label,
-  TextArea,
-  TextField,
-} from "@heroui/react";
+import {Button,Description,FieldError,Form,Input,Label,TextArea,TextField,} from "@heroui/react";
 
 export function AddProductForm() {
 
@@ -18,7 +9,7 @@ export function AddProductForm() {
         e.preventDefault()
         const formData = new FormData(e.currentTarget)
         const product = Object.fromEntries(formData.entries())
-        console.log(product)
+        //console.log(product)
 
         const res = await fetch ("http://localhost:8000/product",{
             method:"POST",
@@ -247,7 +238,6 @@ export function AddProductForm() {
             </Button>
 
           </div>
-
         </Form>
       </div>
     </div>

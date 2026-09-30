@@ -10,7 +10,7 @@ const ProductPage = async () => {
                 
                 {/* Header Section */}
                 <div className="text-center mb-10">
-                    <h1 className="text-3xl sm:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-emerald-600 mb-2">
+                    <h1 className="p-3 text-3xl sm:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-emerald-600 mb-2">
                         আমাদের সমস্ত প্রোডাক্ট
                     </h1>
                     <p className="text-gray-600 text-sm sm:text-base">

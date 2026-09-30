@@ -1,16 +1,36 @@
 
 "use client";
 
+import { authClient } from "@/lib/auth-client";
 import { Button } from "@heroui/react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { Avatar } from '@heroui/react';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+
+  const { data: session, } = authClient.useSession()
+  const user = session?.user
+
+
+  const handleDelete = async ()=>{
+    await authClient.signOut();
+  }
+
+
+
+
+
+
+
+
+
+
   return (
-    <nav className="w-full bg-green-50/70 border-b border-green-100 shadow-sm backdrop-blur-md">
+    <nav className=" sticky top-0 z-50 w-full bg-green-50/70 border-b border-green-100 shadow-sm backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Main Navbar */}
@@ -33,7 +53,10 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <ul className="hidden md:flex items-center gap-6 lg:gap-8">
-            <li>
+
+            {
+              user? <>
+              <li>
               <Link
                 href="/"
                 className="text-gray-600 hover:text-green-600 font-medium transition"
@@ -42,15 +65,6 @@ export default function Navbar() {
               </Link>
             </li>
 
-
-             <li>
-              <Link
-                href="/add-products"
-                className="text-gray-600 hover:text-green-600 font-medium transition"
-              >
-                Add Product
-              </Link>
-            </li>
 
             <li>
               <Link
@@ -61,6 +75,20 @@ export default function Navbar() {
               </Link>
             </li>
 
+
+
+
+            <li>
+              <Link
+                href="/add-products"
+                className="text-gray-600 hover:text-green-600 font-medium transition"
+              >
+                Add Product
+              </Link>
+            </li>
+
+            
+
             <li>
               <Link
                 href="/cart"
@@ -69,37 +97,92 @@ export default function Navbar() {
                 Cart
               </Link>
             </li>
+              </>:
+
+              <>
+
+              <li>
+              <Link
+                href="/"
+                className="text-gray-600 hover:text-green-600 font-medium transition"
+              >
+                Home
+              </Link>
+            </li>
+
 
             <li>
               <Link
-                href="/profile"
+                href="/products"
                 className="text-gray-600 hover:text-green-600 font-medium transition"
               >
-                Profile
+                Products
               </Link>
             </li>
+              
+              
+              </>
+            }
+            
+
+          
           </ul>
+
 
           {/* Desktop Buttons */}
           <div className="hidden md:flex items-center gap-2">
-            <Button
-              variant="bordered"
-              className="border-green-300 text-green-700 hover:bg-green-100"
-            >
-              Login
-            </Button>
+            {user ? <>
+            
 
-            <Button className="bg-green-500 text-white hover:bg-green-600">
-              Sign Up
-            </Button>
+               
+            <Link
+                href="/profile"
+                className="text-gray-600 hover:text-green-600 font-medium transition"
+              >
+               <Avatar>
+        <Avatar.Image alt="John Doe" src={user?.image} />
+        <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
+      </Avatar>
+              </Link>
 
-            <Button
-              variant="light"
-              className="text-gray-500 hover:text-red-500"
-            >
-              LogOut
-            </Button>
+
+                <Button
+                onClick={handleDelete}
+                variant="danger"
+                className=" ml-5"
+              >
+                Logout
+              </Button>
+           
+            </> : 
+              <>
+                <Link href="/login">
+                  <Button
+                    variant="bordered"
+                    className="border-green-300 text-green-700 hover:bg-green-100"
+                  >
+                    Login
+                  </Button>
+                </Link>
+
+                <Link href="/signUp">
+                  <Button className="bg-green-500 text-white hover:bg-green-600">
+                    Sign Up
+                  </Button>
+                </Link>
+              </>
+            }
           </div>
+
+
+
+
+
+
+
+
+
+
 
           {/* Mobile Menu Button */}
           <button

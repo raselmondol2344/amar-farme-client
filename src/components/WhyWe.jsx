@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import { FaLeaf, FaShieldAlt, FaTruck } from "react-icons/fa";
 

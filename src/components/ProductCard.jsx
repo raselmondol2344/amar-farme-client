@@ -1,18 +1,11 @@
+'use client'
 import React from "react";
 import Image from "next/image";
 import { Card, Chip, Button } from "@heroui/react";
 import Link from "next/link";
 
 export default function ProductCard({ product }) {
-  const {
-    productName,
-    price,
-    imageUrl,
-    stock,
-    category,
-    freshness,
-    _id
-  } = product;
+  const {productName,price,imageUrl,stock,category,freshness,_id} = product;
 
   return (
     <Card className="w-full overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
@@ -32,9 +25,9 @@ export default function ProductCard({ product }) {
         <div className="absolute left-3 top-3 z-10">
           <Chip
             size="sm"
-            className="bg-green-600/90 px-2 font-medium text-white shadow-sm backdrop-blur-md"
+            className="bg-green-400/90 px-3 font-medium text-white shadow-sm backdrop-blur-md py-1 "
           >
-            {category}
+            ক্যাটেগরি : {category}
           </Chip>
         </div>
 
@@ -84,11 +77,11 @@ export default function ProductCard({ product }) {
 
         
         {/* Buttons */}
-<div className="mt-5 flex justify-around gap-3 border-t border-gray-100 pt-4">
+<div className="mt-5 flex justify-between gap-3 border-t border-gray-100 pt-4">
  <Link href={`/products/${_id}`}>
   <Button
     size="sm"
-    variant="bordered"
+    variant="outline"
     className="w-full rounded-xl border-green-600 font-semibold text-green-700 hover:bg-green-50 sm:w-auto"
   >
     Details
