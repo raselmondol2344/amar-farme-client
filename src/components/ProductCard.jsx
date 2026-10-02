@@ -3,9 +3,48 @@ import React from "react";
 import Image from "next/image";
 import { Card, Chip, Button } from "@heroui/react";
 import Link from "next/link";
+import { authClient } from "@/lib/auth-client";
+import { toast } from "react-toastify";
 
 export default function ProductCard({ product }) {
   const {productName,price,imageUrl,stock,category,freshness,_id} = product;
+
+  const { data: session, } = authClient.useSession()
+      const user = session?.user
+
+
+
+       const handleCart = async () =>{
+          const cartingData ={
+            userId:user?.id,
+            userName:user?.name,
+            useremail:user?.email,
+            imageUrl,
+            productName,
+            price,
+            productId:_id
+      
+      
+          }
+          //console.log(cartingData)
+      
+          const res = await fetch('http://localhost:8000/cart',{
+            method:"POST",
+            headers:{
+              'content-type':'application/json'
+            },
+            body:JSON.stringify(cartingData)
+      
+          })
+          const data = await res.json();
+          console.log(data)
+          toast.success("product cart success")
+      
+        }
+      
+
+
+  
 
   return (
     <Card className="w-full overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
@@ -89,6 +128,7 @@ export default function ProductCard({ product }) {
  </Link>
 
   <Button
+  onClick={handleCart}
     size="sm"
     color="success"
     className="w-full rounded-xl bg-green-600 font-semibold text-white shadow-sm hover:bg-green-700 sm:w-auto"

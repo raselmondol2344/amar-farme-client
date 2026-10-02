@@ -5,10 +5,62 @@ import { Button, Chip } from "@heroui/react";
 import { EditModal } from "@/components/EditModal";
 import { useState } from "react";
 import {DeleteAlert} from "@/components/DeleteAlert"
+import { toast } from "react-toastify";
+import { authClient } from "@/lib/auth-client";
 
 export default function ProductDetails({product}) {
   const [currentProduct, setCurrentProduct] = useState(product);
-  const {productName,price,imageUrl, stock,category, freshness,description} = currentProduct;
+  const {productName,price,imageUrl, stock,category, freshness,description,_id} = currentProduct;
+   const { data: session, } = authClient.useSession()
+    const user = session?.user
+
+
+  const handleCart = async () =>{
+    const cartingData ={
+      userId:user?.id,
+      userName:user?.name,
+      useremail:user?.email,
+      imageUrl,
+      productName,
+      price,
+      productId:_id
+
+
+    }
+    console.log(cartingData)
+
+    const res = await fetch('http://localhost:8000/cart',{
+      method:"POST",
+      headers:{
+        'content-type':'application/json'
+      },
+      body:JSON.stringify(cartingData)
+
+    })
+    const data = await res.json();
+    //console.log(data)
+    toast.success("product cart success")
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   return (
     <div>
@@ -109,6 +161,7 @@ export default function ProductDetails({product}) {
 
                 {/* Add to Cart */}
                 <Button
+                 onClick={handleCart}
                   size="lg"
                   color="success"
                   className="h-11 w-full rounded-xl bg-green-600 px-5 font-semibold text-white hover:bg-green-700 sm:h-12 sm:flex-1"

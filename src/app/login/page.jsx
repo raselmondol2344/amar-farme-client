@@ -134,7 +134,7 @@ export default  function SignInpage() {
                     <Description>
                       8 characters, 1 uppercase & 1 number
                     </Description>
-                    
+
 
 
                   <FieldError />
@@ -155,9 +155,8 @@ export default  function SignInpage() {
                 <div className="text-center py-1">or</div>
                 
                                    <Button 
-                                   onClick={handlegooglesignIn}
-                                   
-                                   className="w-full" variant="tertiary">
+                                 onClick={handlegooglesignIn}
+                                 className="w-full" variant="tertiary">
                                   <Icon icon="devicon:google" />
                                   Sign in with Google
                                 </Button>

@@ -5,7 +5,7 @@ import { Button } from "@heroui/react";
 
 export default function Footer() {
     return (
-        <footer className="w-full bg-[#F3F4F6] text-[#4B5563] border-t border-gray-200 mt-10">
+        <footer className="w-full bg-[#F3F4F6] text-[#4B5563] border-t border-gray-200 mt-10 ">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-14">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                     
