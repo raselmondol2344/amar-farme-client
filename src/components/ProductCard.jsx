@@ -126,6 +126,7 @@ export default function ProductCard({ product }) {
     Details
   </Button>
  </Link>
+ 
 
   <Button
   onClick={handleCart}
