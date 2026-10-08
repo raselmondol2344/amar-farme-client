@@ -1,7 +1,15 @@
 'use client'
+import { usePathname } from "next/navigation";
 import Marquee from "react-fast-marquee";
 
 export default function Marqueee() {
+   const pathname = usePathname();
+  if (pathname.includes("dashbord")) {
+    return null;
+  }
+  if (pathname.includes("pricing")) {
+    return null;
+  }
   return (
     <div className="w-full border-y border-green-100 bg-green-50/80">
       <div className="mx-auto flex w-full max-w-7xl items-center gap-2 px-2 py-2 sm:gap-3 sm:px-4 md:px-6 lg:py-3">

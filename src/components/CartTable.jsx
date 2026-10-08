@@ -3,6 +3,9 @@
 import Image from "next/image";
 import { Table, Button } from "@heroui/react";
 import { TfiShoppingCart } from "react-icons/tfi";
+import { CartDeleteAlert } from "./CartDeleteAlert";
+import { IoMdAdd } from "react-icons/io";
+import { GrFormSubtract } from "react-icons/gr";
 
 export default function CartTable({ data }) {
   // Empty cart
@@ -77,6 +80,17 @@ export default function CartTable({ data }) {
                 <Table.Column className="py-4 text-sm font-semibold text-gray-600">
                   Action
                 </Table.Column>
+
+
+                
+                <Table.Column className="py-4 text-sm font-semibold text-gray-600">
+                  Count
+                </Table.Column>
+
+
+
+
+
               </Table.Header>
 
               {/* All Products */}
@@ -115,19 +129,45 @@ export default function CartTable({ data }) {
                     {/* Action */}
                     <Table.Cell className="py-4">
                       <div className="flex flex-wrap items-center gap-2">
-                        <Button
-                          size="sm"
-                          variant="flat"
-                          className="rounded-lg bg-red-50 px-3 text-xs font-medium text-red-600 hover:bg-red-100 sm:text-sm"
-                        >
-                          Delete
-                        </Button>
+                       <CartDeleteAlert data={item}></CartDeleteAlert>
+
+                       
+                      </div>
+                    </Table.Cell>
+
+
+
+
+
+                    {/* count */}
+                    <Table.Cell className="py-4">
+                      <div className="flex flex-wrap items-center gap-2">
+                      
 
                         <Button
                           size="sm"
-                          className="rounded-lg bg-green-600 px-3 text-xs font-medium text-white hover:bg-green-700 sm:text-sm"
+                          className="rounded-lg bg-green-500 px-3 text-xs font-medium text-white hover:bg-green-700 sm:text-sm"
                         >
-                          Payment
+                          <IoMdAdd />
+                        </Button>
+
+                          <Button
+                         
+                          size="sm"
+                          className="rounded-full bg-none px-3 text-xs font-medium sm:text-sm "
+                        >
+                          0
+                        </Button>
+
+
+                        
+
+                        
+                         <Button
+                          size="sm"
+                          className="rounded-lg bg-red-500 px-3 text-xs font-medium text-white hover:bg-red-700 sm:text-sm"
+                        >
+                          <GrFormSubtract />
                         </Button>
                       </div>
                     </Table.Cell>
@@ -137,6 +177,10 @@ export default function CartTable({ data }) {
             </Table.Content>
           </Table.ScrollContainer>
         </Table>
+
+        <div className="py-8 max-w-5xl mx-auto">
+          <Button className='w-full text-center bg-green-500'> Total pay = 00 tk</Button>
+        </div>
       </div>
     </div>
   );

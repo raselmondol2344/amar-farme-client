@@ -7,8 +7,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { Avatar } from '@heroui/react';
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
+
+  
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 
@@ -20,7 +23,10 @@ export default function Navbar() {
     await authClient.signOut();
   }
 
-
+ const pathname = usePathname();
+  if (pathname.includes("dashbord")) {
+    return null;
+  }
 
 
 
@@ -97,6 +103,14 @@ export default function Navbar() {
                 Cart
               </Link>
             </li>
+            <li>
+              <Link
+                href="/pricing"
+                className="text-gray-600 hover:text-green-600 font-medium transition"
+              >
+                Princing
+              </Link>
+            </li>
               </>:
 
               <>
@@ -130,29 +144,31 @@ export default function Navbar() {
 
 
           {/* Desktop Buttons */}
-          <div className="hidden md:flex items-center gap-2">
+          <div className="hidden md:flex   justify-end items-center gap-2">
             {user ? <>
             
-
-               
-            <Link
-                href="/profile"
-                className="text-gray-600 hover:text-green-600 font-medium transition"
-              >
-               <Avatar>
-        <Avatar.Image alt="John Doe" src={user?.image} />
-        <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
-      </Avatar>
+              <div>
+                <Link href={`/dashbord/${user?.role}`}>
+              Dashbord
               </Link>
+               
+           
+              </div>
 
 
-                <Button
+               <div>
+                 <Button
                 onClick={handleDelete}
                 variant="danger"
                 className=" ml-5"
               >
                 Logout
               </Button>
+               </div>
+
+             
+
+            
            
             </> : 
               <>
@@ -260,6 +276,15 @@ export default function Navbar() {
                 </li>
 
                 <li>
+                  <Link href={`/dashbord/${user?.role}`}
+                  onClick={() => setIsMenuOpen(false)}
+                  className="block px-4 py-2.5 rounded-lg text-gray-600 hover:bg-green-50 hover:text-green-600 transition"
+                  >
+              Dashbord
+              </Link>
+                </li>
+
+                <li>
                   <Link
                     href="/profile"
                     onClick={() => setIsMenuOpen(false)}
@@ -268,6 +293,7 @@ export default function Navbar() {
                     Profile
                   </Link>
                 </li>
+                
               </ul>
 
               {/* Mobile Auth Buttons */}

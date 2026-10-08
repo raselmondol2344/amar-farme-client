@@ -47,7 +47,7 @@ export default function ProductCard({ product }) {
   
 
   return (
-    <Card className="w-full overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+    <Card className="w-full overflow-hidden rounded-2xl border border-gray-100 bg-slate-100 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
 
 
 

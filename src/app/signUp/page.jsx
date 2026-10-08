@@ -1,11 +1,12 @@
 "use client";
+import {Label, ListBox, Select} from "@heroui/react";
 import Link from "next/link";
 import Image from "next/image";
 import { authClient } from "@/lib/auth-client";
 import {Icon} from "@iconify/react";
 
 
-import {Button,Description,FieldError,Form,Input,Label,TextField,Card, Separator,} from "@heroui/react";
+import {Button,Description,FieldError,Form,Input,TextField,Card, Separator,} from "@heroui/react";
 import { redirect } from "next/navigation";
 import { toast } from "react-toastify";
 
@@ -22,6 +23,8 @@ export default function SignUppage() {
                 name:user.name,
                 email:user.email,
                 password:user.password,
+                role: user.role,
+                plan:"free",
                
             })
             //console.log(user);
@@ -145,6 +148,31 @@ const handlegooglesignIn = async () => {
                     <Description>Must be at least 8 characters with 1 uppercase and 1 number</Description>
                     <FieldError />
               </TextField>
+
+
+
+
+    <Select className="w-full" placeholder="Select one" name="role">
+      <Label className="text-green-400 ">Role</Label>
+      <Select.Trigger className="border border-green-100">
+        <Select.Value />
+        <Select.Indicator/>
+      </Select.Trigger>
+      <Select.Popover >
+        <ListBox >
+          <ListBox.Item id="seller" textValue="seller">
+            seller
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+          <ListBox.Item id="buyer" textValue="buyer">
+            buyer
+            <ListBox.ItemIndicator />
+          </ListBox.Item>
+        </ListBox>
+      </Select.Popover>
+    </Select>
+
+
 
 
 
