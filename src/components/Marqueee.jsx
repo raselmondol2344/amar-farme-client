@@ -6,6 +6,7 @@ export default function Marqueee() {
    const pathname = usePathname();
   if (pathname.includes("dashbord")) {
     return null;
+    
   }
   if (pathname.includes("pricing")) {
     return null;
