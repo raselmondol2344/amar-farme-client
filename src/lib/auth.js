@@ -1,3 +1,4 @@
+
 import { betterAuth } from "better-auth";
 import { jwt } from "better-auth/plugins";
 import { MongoClient } from "mongodb";
@@ -8,12 +9,13 @@ const db = client.db("Amar-Farme");
 
 export const auth = betterAuth({
   database: mongodbAdapter(db, {
-    // Optional: if you don't provide a client, database transactions won't be enabled.
     client,
   }),
+
   emailAndPassword: {
     enabled: true,
   },
+
   socialProviders: {
     google: {
       clientId: process.env.GOOGLE_CLIENT_ID,
@@ -29,18 +31,29 @@ export const auth = betterAuth({
       },
 
       plan: {
+        type: "string",
         defaultValue: "free",
       },
     },
   },
 
   session: {
+    expiresIn: 7 * 24 * 60 * 60,
+
+    updateAge: 24 * 60 * 60,
+
     cookieCache: {
       enabled: true,
       strategy: "jwt",
-      //max age 7 days
-      maxAge: 7 * 24 * 60 * 60,
+
+      // Cache অনেকক্ষণ পুরোনো না রাখার জন্য
+      maxAge: 5 * 60,
     },
   },
-  plugins: [jwt()],
+
+  plugins: [
+    jwt({
+      sessionCookieCache: true,
+    }),
+  ],
 });

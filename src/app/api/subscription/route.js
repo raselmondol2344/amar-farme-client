@@ -8,7 +8,7 @@ export async function POST() {
   try {
     const headersList = await headers()
     const origin = headersList.get('origin')
-    const PRICE_ID ="prod_VP9lTouffAo7Hj";
+    const PRICE_ID ="price_1UOLSC0aMZirgd5ONIKtO81d";
 
     // Create Checkout Sessions from body params.
     const session = await stripe.checkout.sessions.create({
@@ -22,7 +22,7 @@ export async function POST() {
       mode: 'subscription',
       success_url: `${origin}/pricing/success-subscription?session_id={CHECKOUT_SESSION_ID}`,
       // Provide a name (for example, hosted_web_0001) to label this Checkout integration and measure its conversion independently
-      integration_identifier: '{{INTEGRATION_ID}}',
+      integration_identifier: "amr_farme_subscription",
     });
     return NextResponse.redirect(session.url, 303)
   } catch (err) {
