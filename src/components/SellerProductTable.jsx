@@ -23,6 +23,7 @@ export default function SellerProductTable({ data }) {
   }
 
   return (
+
     <div className="w-full">
       
       
@@ -34,6 +35,7 @@ export default function SellerProductTable({ data }) {
             <Table.Content
               aria-label="Products"
               className="min-w-[700px]"
+              
             >
               {/* Table Header */}
               <Table.Header className="bg-gray-50">
