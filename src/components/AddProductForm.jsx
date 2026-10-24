@@ -2,21 +2,31 @@
 import { toast } from "react-toastify";
 
 import {Button,Description,FieldError,Form,Input,Label,TextArea,TextField,} from "@heroui/react";
+import { imageUploader } from "@/lib/imageUploader";
+import { authClient } from "@/lib/auth-client";
 
 export function AddProductForm() {
+
+   const { data: session, } = authClient.useSession()
+    const user = session?.user
 
     const onSubmit= async(e)=>{
         e.preventDefault()
         const formData = new FormData(e.currentTarget)
         const product = Object.fromEntries(formData.entries())
         //console.log(product)
+      
+
+        const image = await imageUploader(product.image)
+
+
 
         const res = await fetch ("http://localhost:8000/product",{
             method:"POST",
             headers:{
                 "content-type":"application/json"
             },
-            body:JSON.stringify(product)
+            body:JSON.stringify({...product, image: image.url , userId:user?.id})
         })
         const data = await res.json()
 
@@ -95,21 +105,23 @@ export function AddProductForm() {
 
             <TextField
               isRequired
-              name="imageUrl"
-              type="url"
+              name="image"
+              type="file"
             >
               <Label className="text-xs font-medium text-green-800 sm:text-sm">
-                ইমেজ URL
+                ইমেজ 
               </Label>
 
-              <Input
-                placeholder="পন্যের ইমেজ URL দিন"
+              <input
+              name="image" type="file"
+                placeholder="পন্যের ইমেজ  দিন"
                 className="mt-1 rounded-xl border border-green-200 bg-green-50/40"
               />
 
-              <Description className="text-[11px] text-green-600">
-                পন্যের ছবির সরাসরি URL
-              </Description>
+
+      
+
+              
 
               <FieldError />
             </TextField>

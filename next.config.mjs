@@ -24,6 +24,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "api.freshtoday.com.bd",
       },
+      {
+        protocol: "https",
+        hostname: "i.ibb.co",
+      },
     ],
   },
 };

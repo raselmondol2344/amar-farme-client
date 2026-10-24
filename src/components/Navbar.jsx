@@ -84,14 +84,14 @@ export default function Navbar() {
 
 
 
-            <li>
+            {/* <li>
               <Link
                 href="/add-products"
                 className="text-gray-600 hover:text-green-600 font-medium transition"
               >
                 Add Product
               </Link>
-            </li>
+            </li> */}
 
             
 

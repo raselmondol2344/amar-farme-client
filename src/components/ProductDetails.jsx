@@ -10,7 +10,7 @@ import { authClient } from "@/lib/auth-client";
 
 export default function ProductDetails({product}) {
   const [currentProduct, setCurrentProduct] = useState(product);
-  const {productName,price,imageUrl, stock,category, freshness,description,_id} = currentProduct;
+  const {productName,price,image, stock,category, freshness,description,_id} = currentProduct;
    const { data: session, } = authClient.useSession()
     const user = session?.user
 
@@ -20,7 +20,7 @@ export default function ProductDetails({product}) {
       userId:user?.id,
       userName:user?.name,
       useremail:user?.email,
-      imageUrl,
+      image,
       productName,
       price,
       productId:_id
@@ -61,7 +61,7 @@ export default function ProductDetails({product}) {
             {/* Image */}
             <div className="relative h-80 overflow-hidden bg-gray-100 sm:h-96 md:h-full md:min-h-[500px]">
               <Image
-                src={imageUrl}
+                src={image}
                 alt={productName}
                 fill
                 className="object-cover"

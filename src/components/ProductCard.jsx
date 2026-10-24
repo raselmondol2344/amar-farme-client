@@ -7,7 +7,7 @@ import { authClient } from "@/lib/auth-client";
 import { toast } from "react-toastify";
 
 export default function ProductCard({ product }) {
-  const {productName,price,imageUrl,stock,category,freshness,_id} = product;
+  const {productName,price,image,stock,category,freshness,_id} = product;
 
   const { data: session, } = authClient.useSession()
       const user = session?.user
@@ -19,7 +19,7 @@ export default function ProductCard({ product }) {
             userId:user?.id,
             userName:user?.name,
             useremail:user?.email,
-            imageUrl,
+            imageUrl: image,
             productName,
             price,
             productId:_id
@@ -54,7 +54,7 @@ export default function ProductCard({ product }) {
       {/* Image Section */}
       <div className="relative h-52 w-full overflow-hidden  bg-gray-50 sm:h-56 rounded-lg">
         <Image
-          src={imageUrl}
+          src={image}
           alt={productName}
           fill
           className="rounded-lg object-cover transition-transform duration-500 hover:scale-105"
