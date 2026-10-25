@@ -5,7 +5,7 @@ import { Button, FieldError, Input, Label, Modal, Surface, TextField, TextArea, 
 import { FiEdit } from "react-icons/fi";
 import React, { useState } from "react";
 export function EditModal({ product, onUpdate }) {
-  const { _id, productName, price, imageUrl, stock, category, freshness, description } = product;
+  const { _id, productName, price, image, stock, category, freshness, description } = product;
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -77,7 +77,7 @@ export function EditModal({ product, onUpdate }) {
                   </div>
 
                   <div className="mt-4 grid w-full grid-cols-1 gap-4 md:grid-cols-2">
-                    <TextField isRequired name="imageUrl" type="url" defaultValue={imageUrl}>
+                    <TextField isRequired name="image" type="url" defaultValue={image}>
                       <Label className="text-xs font-medium text-green-800 sm:text-sm">ইমেজ URL</Label>
                       <Input placeholder="পন্যের ইমেজ URL দিন" className="mt-1 rounded-xl border border-green-200 bg-green-50/40" />
                       <Description className="text-[11px] text-green-600">পন্যের ছবির সরাসরি URL</Description>

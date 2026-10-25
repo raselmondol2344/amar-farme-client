@@ -104,7 +104,7 @@ export default function CartTable({ data }) {
                     <Table.Cell className="py-4">
                       <div className="relative h-14 w-14 overflow-hidden rounded-lg border border-gray-200 bg-gray-50 sm:h-16 sm:w-16">
                         <Image
-                          src={item.imageUrl}
+                          src={item.image}
                           alt={item.productName}
                           fill
                           className="object-cover"

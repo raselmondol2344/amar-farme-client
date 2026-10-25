@@ -158,21 +158,32 @@ export default function ProductDetails({product}) {
                 </Button>
 
                 {/* More Products */}
-                <Link
-                  href="/products"
-                  className="w-full sm:w-auto sm:flex-1"
-                >
-                  <Button
-                    className="h-10 w-full rounded-full bg-slate-200 px-4 text-sm font-semibold text-green-600 transition-all duration-300 hover:bg-green-600 hover:text-white sm:h-11 md:text-sm lg:text-sm"
-                  >
-                    আরো দেখুন
-                  </Button>
-                </Link>
+               
+                
+               
+                  <form action={'/api/payment'} method="POST">
 
+
+                  <input type="hidden" value={price}  name="price"/>
+                  <input type="hidden" value={productName} name="productName"/>
+                  <input type="hidden" value={_id}  name = "productId"/>
+                    <Button
+                    type="submit"
+                    className="h-10 w-full rounded-xl bg-slate-200 px-4 text-sm font-semibold text-green-600 transition-all duration-300 hover:bg-green-600 hover:text-white sm:h-11 md:text-sm lg:text-sm"
+                  >
+                    Buy Now
+                  </Button>
+                    </form>
+                  
+             
               </div>
 
+             
+
             </div>
+             
           </div>
+          
         </div>
       </div>
 

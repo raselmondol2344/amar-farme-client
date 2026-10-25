@@ -19,7 +19,7 @@ export default function ProductCard({ product }) {
             userId:user?.id,
             userName:user?.name,
             useremail:user?.email,
-            imageUrl: image,
+            image: image,
             productName,
             price,
             productId:_id
