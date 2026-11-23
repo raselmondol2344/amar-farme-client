@@ -298,16 +298,45 @@ export default function Navbar() {
 
               {/* Mobile Auth Buttons */}
               <div className="flex gap-2 mt-3 pt-3 border-t border-green-100">
-                <Button
-                  variant="bordered"
-                  className="flex-1 border-green-300 text-green-700 hover:bg-green-50"
-                >
-                  Login
-                </Button>
 
-                <Button className="flex-1 bg-green-500 text-white hover:bg-green-600">
-                  Sign Up
-                </Button>
+
+  {user ? <>
+            
+   <div>
+                 <Button
+                onClick={handleDelete}
+                variant="danger"
+                className=" ml-5"
+              >
+                Logout
+              </Button>
+               </div>
+
+             
+
+            
+           
+            </> : 
+              <>
+                <Link href="/login">
+                  <Button
+                    variant="bordered"
+                    className="border-green-300 text-green-700 hover:bg-green-100"
+                  >
+                    Login
+                  </Button>
+                </Link>
+
+                <Link href="/signUp">
+                  <Button className="bg-green-500 text-white hover:bg-green-600">
+                    Sign Up
+                  </Button>
+                </Link>
+              </>
+            }
+
+
+
               </div>
 
             </div>

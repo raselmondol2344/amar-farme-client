@@ -60,7 +60,7 @@ export default function ProductCard({ product }) {
           className="rounded-lg object-cover transition-transform duration-500 hover:scale-105"
         />
 
-        {/* Category - Left */}
+        {/* Category - Left
         <div className="absolute left-3 top-3 z-10">
           <Chip
             size="sm"
@@ -68,7 +68,7 @@ export default function ProductCard({ product }) {
           >
             ক্যাটেগরি : {category}
           </Chip>
-        </div>
+        </div> */}
 
         {/* Freshness - Right */}
         <div className="absolute right-3 top-3 z-10">

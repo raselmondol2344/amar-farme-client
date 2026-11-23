@@ -4,25 +4,16 @@ import DashbordNavbar from "@/components/DashbordNavbar";
 export default function RootLayout({ children }) {
   return (
     <div className="min-h-screen bg-gray-100">
+      <div className="flex min-h-screen w-full">
 
-      {/* Dashboard Layout */}
-      <div className="flex min-h-screen">
+        <DashbordAsidebar />
 
-        {/* Sidebar */}
-        <DashbordAsidebar></DashbordAsidebar>
-       
+        <main className="flex min-w-0 flex-1 flex-col">
+          <DashbordNavbar />
 
-        {/* Main Content */}
-        <main className="flex-1 min-w-0">
-
-          {/* Navbar */}
-         <DashbordNavbar></DashbordNavbar>
-
-          {/* Page Content */}
-          <section className="p-6">
+          <section className="w-full flex-1 p-3 sm:p-4 md:p-5 lg:p-6">
             {children}
           </section>
-
         </main>
 
       </div>

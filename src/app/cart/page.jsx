@@ -13,8 +13,10 @@ export default async function CartPage() {
   const Cartdata = await res.json();
 
   return (
-    <div className="mx-auto w-full max-w-5xl px-3 py-6 sm:px-5 lg:px-6">
-      <CartTable data={Cartdata} />
-    </div>
+    <main className="min-h-[70vh] w-full bg-gray-50/70">
+      <div className="mx-auto w-full max-w-7xl px-3 py-6 sm:px-5 sm:py-8 lg:px-8 lg:py-10">
+        <CartTable data={Cartdata} />
+      </div>
+    </main>
   );
 }
